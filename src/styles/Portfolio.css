@@ -1,0 +1,87 @@
+/* Portfolio Page Container */
+.portfolio-container {
+    text-align: center;
+    width: 96vw;
+    margin-top: 50px;
+    padding: 50px 20px;
+    background-color: #f9fafb;
+  }
+  
+  /* Hero Section */
+  .hero {
+    /* background: linear-gradient(135deg, #4f46e5, #6366f1); */
+    color: white;
+    padding: 60px 20px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+  }
+  
+  /* Projects Section */
+  .projects {
+    margin: 40px 0;
+  }
+  
+  .project-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-3px);
+  }
+  
+  .project-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .project-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .project-description {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .project-button {
+    display: inline-block;
+    background-color: #4f46e5;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  .project-button:hover {
+    background-color: #4338ca;
+  }
+  
+  /* Skills Section */
+  .skills {
+    margin-top: 50px;
+  }
+  
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .skill {
+    background: #4f46e5;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
